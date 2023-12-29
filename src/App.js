@@ -9,6 +9,7 @@ function App() {
   });
 
   useEffect(() => {
+    document.title = 'IF YOU PRESS NO, YOU\'LL DIE BY MY HAND';
     const button = document.getElementById('btn');
     const buttonY = document.getElementById('btnY');
 
