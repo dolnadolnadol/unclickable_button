@@ -13,8 +13,8 @@ function App() {
 
     const handleMouseOver = () => {
       setButtonPosition({
-        left: `${Math.ceil(Math.random() * 10)}%`,
-        top: `${Math.ceil(Math.random() * 10)}%`,
+        left: `${Math.ceil(Math.random() * 100)}%`,
+        top: `${Math.ceil(Math.random() * 100)}%`,
       });
     };
 
