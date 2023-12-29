@@ -61,14 +61,14 @@ function App() {
         
         <button 
         id = "btnY"
-        className="absolute right-[55%] top-[65%] btn btn-primary w-[10vw] text-xl font-mono bg-pink-500 border-0 text-white transition-all hover:bg-orange-400">
+        className="absolute right-[55%] top-[65%] btn btn-primary w-[15vw] text-xl font-mono bg-pink-500 border-0 text-white transition-all hover:bg-orange-400">
               Yes!
         </button>
         <div className='flex justify-center mt-5'>
             <button
               id='btn'
               style={{ position: 'absolute', left: buttonPosition.left, top: buttonPosition.top }}
-              className="btn btn-primary w-[10vw] text-xl font-mono bg-red-700 hover:bg-red-700 border-0 text-white transition-all">
+              className="btn btn-primary w-[15vw] text-xl font-mono bg-red-700 hover:bg-red-700 border-0 text-white transition-all">
               NO!
             </button>
           </div>
